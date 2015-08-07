@@ -1,0 +1,14 @@
+{
+  "name": "JSpager",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.0.0",
+    "ngCordova": "~0.1.17-alpha",
+    "ngstorage": "~0.3.5",
+    "ionic-material": "0.4.2",
+    "ion-md-input": "0.0.2",
+    "ionic-service-core": "~0.1.7",
+    "ionic-service-analytics": "~1.0.0",
+    "ionic-service-deploy": "~0.0.6"
+  }
+}

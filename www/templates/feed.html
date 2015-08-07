@@ -1,0 +1,33 @@
+<ion-view title="Feed" view-title="Feed" ng-init="init()">
+
+    <ion-content ng-class="{expanded:$scope.isExpanded}" class="animate-fade-slide-in">
+
+        <div class="hero slide-up" ng-style="coverImg">
+            <div class="content" style="text-align:left;">
+              <div class="avatar" style="border-radius:20%; background-image:url({{profilePic}});"></div>
+              <h3 style="text-align:center;"><a class="light">{{pageData.name}}</a></h3>
+            </div>
+        </div>
+
+        <ion-refresher pulling-text="Pull to refresh..." on-refresh="doRefresh()"></ion-refresher>
+
+        <div ng-repeat="post in posts" class="card-item item">
+            <div ng-click="doOpen('{{post.link}}')" class="card stable-bg ink ink-dark">
+                <div class="item item-text-wrap">
+                    <strong>{{post.message}}</strong>
+                    <a class="image"><img ng-src="{{post.full_picture}}"></a>
+                    <div class="card-footer text-right">
+                        <i class="icon ion-chatbubble positive"></i> {{post.comments.summary.total_count}}
+                        <i class="icon ion-heart assertive"></i> {{post.likes.summary.total_count}}
+                        <div class="pull-left">
+                            <i class="icon ion-clock"></i> {{post.created_time | date:'medium':'+0100'}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <ion-infinite-scroll ng-if="!last_page" icon="" on-infinite="loadFeed()" distance="10%"></ion-infinite-scroll>
+
+    </ion-content>
+</ion-view>

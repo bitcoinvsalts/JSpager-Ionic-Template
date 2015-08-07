@@ -1,0 +1,22 @@
+{
+  "name": "ionic-service-deploy",
+  "version": "0.0.6",
+  "description": "Ionic Deploy Component",
+  "dependencies": {
+    "ionic-service-core": ">=0.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driftyco/ionic-service-deploy.git"
+  },
+  "keywords": [
+    "Ionic",
+    "deploy"
+  ],
+  "author": "Ionic",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/driftyco/ionic-service-deploy/issues"
+  },
+  "homepage": "https://github.com/driftyco/ionic-service-deploy#readme"
+}

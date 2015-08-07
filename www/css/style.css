@@ -1,0 +1,143 @@
+/* General
+==================================*/
+h1 {
+    color: #000;
+    text-shadow: 0 1px 0px #ddd;
+    font-size: 42px;
+}
+
+
+/* Utilities
+==================================*/
+.title-bordered {
+    border-top: solid 2px #bbb;
+    padding-top: 30px;
+}
+
+p {
+    color: #555;
+    margin: 0 0 25px;
+}
+
+.scroll {
+    height: 100%;
+}
+
+.light {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+/* Menu
+==================================*/
+.menu .bar.bar-header.expanded {
+    transition: all .5s ease-in-out;
+}
+
+.menu-open .bar.bar-header.expanded {
+    background-color: #222;
+}
+
+.menu h2 {
+    bottom: 0;
+    font-size: 18px;
+    left: 16px;
+    position: absolute;
+}
+
+.menu .avatar {
+    height: 88px;
+    width: 88px;
+}
+
+.menu.menu-left * {
+    font-weight: bold;
+}
+
+.menu-open .ion-navicon {
+    transform: rotate(-360deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-open .ion-navicon:before {
+    content: "\f2ca";
+}
+
+
+/* Login
+==================================*/
+
+.content {
+  margin-top: 100px;
+  align-content: center;
+}
+
+.app-icon {
+    background-color: #fff;
+    background: url('../img/logo.png') center;
+    background-size: cover;
+    height: 125px;
+    margin: 0 auto;
+    width: 125px;
+}
+
+/* Chat
+==================================*/
+
+.messages {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+.messages li {
+  display:block;
+  clear:both;
+  max-width:50%;
+  margin:0 0 1rem 0;
+  padding:0;
+  float: right;
+}
+
+.messages li.userMsg {
+  float:left;
+}
+
+.messages p {
+  border-radius:.75rem;
+  background:#158ffe;
+  color:#fff;
+  padding:.6875rem;
+  margin:0;
+  font-size:.875rem;
+}
+
+.messages li p.userMsg {
+  background:#e6e5eb;
+  color:#383641;
+}
+
+div.alert {
+  background-color: #eee;
+  text-align: center;
+}
+
+.input-message{
+  background-color: #eee;
+}
+
+.message-form{
+  width: 100%;
+  margin-top: 5px;
+}
+
+.message-username{
+  font-size: 10px;
+}
+
+.notification{
+  background-color: #eee;
+  text-align: center;
+  height: 30px;
+}
