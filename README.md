@@ -13,20 +13,20 @@ Add your own Facebook keys in services.js :
    PagerTitle: "Amazon"
  };
 
-To build the app execute the following commands on your terminal:
+**To build the app execute the following commands on your terminal:**
 
 npm install
 ionic platform add ios
 ionic platform add android
 
-To run the app on the emulator:
+**To run the app on the emulator:**
 
 ionic run ios
 ionic run android
 
-To run the app on the USB connect device:
+**To run the app on the USB connect device:**
 
 ionic run ios --device
 ionic run android --device
 
-For more support, please visit JSapp.me
+For more support, please contact us at http://JSapp.me
