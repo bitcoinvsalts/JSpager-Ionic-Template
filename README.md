@@ -1,6 +1,6 @@
 # JSpager
 
-(JSpager_tools.png "JSpager tools")
+![alt text](JSpager_tools.png "JSpager tools")
 
 Add your own Facebook keys in services.js :
 
