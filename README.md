@@ -2,6 +2,8 @@
 
 ![alt text](JSpager_tools.png "JSpager tools")
 
+## Installation
+
 **Add your own Facebook keys in services.js :**
 
  return {
@@ -12,8 +14,6 @@
    PopupLiker: true,
    PagerTitle: "Amazon"
  };
-
-## Installation
 
 **To build the app execute the following commands on your terminal:**
 
