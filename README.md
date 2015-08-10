@@ -2,7 +2,7 @@
 
 ![alt text](JSpager_tools.png "JSpager tools")
 
-Add your own Facebook keys in services.js :
+**Add your own Facebook keys in services.js :**
 
  return {
    FBappKey : "",
