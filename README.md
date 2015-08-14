@@ -33,4 +33,4 @@
 
 *Keep in mind this repo is only an Ionic starter and template. A lot of work still need to be done to make this app very polish and professional.*
 
-*For more support, please contact us at http://JSapp.me*
+*For more support and information about JSpager Ionic Template, please contact us at http://JSapp.me*
