@@ -1,4 +1,4 @@
-# JSpager
+# JSpager Ionic Template
 
 ![alt text](JSpager_tools.png "JSpager tools")
 
